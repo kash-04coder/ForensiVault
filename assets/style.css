@@ -1,0 +1,41 @@
+.stApp{
+    background:#031f49;
+    color:white;
+}
+
+section[data-testid="stSidebar"]{
+    background:#021024
+}
+
+.stButton>button{
+    width:100%;
+    border-radius:12px;
+    background:#2563EB;
+    color:white;
+    border:none;
+    height:45px;
+    font-weight:600;
+}
+
+.stButton>button:hover{
+    background:#1D4ED8;
+}
+
+.stTextInput input{
+    border-radius:10px;
+}
+
+.stSelectbox div{
+    border-radius:10px;
+}
+
+div[data-testid="metric-container"]{
+    background:#b61f1f;
+    padding:20px;
+    border-radius:15px;
+    border:1px solid #0fdc38;
+}
+
+thead tr th{
+    background:#1E293B !important;
+}
